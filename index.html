@@ -14,9 +14,7 @@
 </head>
 
 <style>
-{
- font-family: montserrat;   
-}
+
     body {
         background: f1fbff;
     }
@@ -43,6 +41,66 @@
         font-size: 18px;
         line-height: 1.9;
     }
+    .carousel-inner::before{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(0,0,0,0.7);
+      z-index: 1;
+    }
+    .navber-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    }
+    .navber-light .navbar-brand{
+      color: #000;
+      font-size: 25px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 5px;
+    }
+    .navber-light .navbar-brand:focus,
+    .navber-light .navbar-brand:hover{
+    color: #000;
+    }
+    .navber-light .navber-nav .navber-link{
+      color: #000;
+    }
+    .w-100{
+      height: 100vh;
+    }
+
+    @media only screen and (max-weith: 767px){
+      .carousel-caption{
+        bottom: 350px;
+      }
+
+    @media only screen and (max-weith: 767px){
+      .navbar-nav{
+        text-align: center;
+      }
+      .carousel-caption{
+        bottom: 125px;
+      }
+      .carousel-caption h5{
+        font-size: 17px;
+      }
+      .carousel-caption a{
+        padding: 10px 15px;
+      }
+      .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+      }
+
+      
+    }
+
+
     </style>
 
 <body>
@@ -106,7 +164,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="img/home-1.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption ">
           <h5>HI IDUL</h5>
           <p>Some representative placeholder content for the first slide.</p>
 
@@ -118,7 +176,7 @@
       </div>
       <div class="carousel-item">
         <img src="img/home-2 Genshin.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption ">
           <h5>GUYS TABANG HAHAHA</h5>
           <p>Some representative placeholder content for the second slide.</p>
 
@@ -128,7 +186,7 @@
       </div>
       <div class="carousel-item">
         <img src="img/home-3.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption ">
           <h5>PLEASE NA GUYS</h5>
           <p>Some representative placeholder content for the third slide.</p>
 
