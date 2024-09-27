@@ -58,6 +58,10 @@ form textarea{
     font-size: 20px;
     width: 100%;
     margin: 4px 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
 }
 form button{
     margin-top: 5px;
@@ -67,4 +71,14 @@ form button{
     padding: 10px 0;
     width: 100%;
     font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 3px;
+}
+form input:focus::placeholder,
+form textarea:focus::placeholder{
+    padding-left: 4px;
+    color: #00fff0;
+    transition: all 0.3s ease;
+    
 }
