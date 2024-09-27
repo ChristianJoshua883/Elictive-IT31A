@@ -6,7 +6,6 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.ccs">
@@ -20,97 +19,11 @@
 
 
 
-    body {
-        background: f1fbff;
-    }
-    .section-padding{
-        padding: 100px 0;
-    }
-    .carousel-item {
-        height: 100vh;
-        min-height: 300px;
-    }
-    .carousel-caption{
-        bottom: 220px;
-        z-index: 2;
-    }
-    .carousel-caption{
-        font-size: 45px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        margin-top: 25px;
-    }
-    .carousel-caption{
-        width: 60%;
-        margin: auto;
-        font-size: 18px;
-        line-height: 1.9;
-    }
-    .carousel-inner::before{
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      background: rgba(0,0,0,0.7);
-      z-index: 1;
-    }
-    .navber-nav a{
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 500;
-    }
-    .navber-light .navbar-brand{
-      color: #000;
-      font-size: 25px;
-      text-transform: uppercase;
-      font-weight: 700;
-      letter-spacing: 5px;
-    }
-    .navber-light .navbar-brand:focus,
-    .navber-light .navbar-brand:hover{
-    color: #000;
-    }
-    .navber-light .navber-nav .navber-link{
-      color: #000;
-    }
-    .w-100{
-      height: 100vh;
-    }
-    .services .card-body i{
-          font-size: 50px;
-        }
 
-    @media only screen and (max-weith: 767px){
-      .carousel-caption{
-        bottom: 350px;
-      }
-      .carousel-caption{
-        width: 100%;
-      }
-    }
 
-    @media only screen and (max-weith: 767px){
-      .navbar-nav{
-        text-align: center;
-      }
-      .carousel-caption{
-        bottom: 125px;
-      }
-      .carousel-caption h5{
-        font-size: 17px;
-      }
-      .carousel-caption a{
-        padding: 10px 15px;
-      }
-      .carousel-caption p{
-        width: 100%;
-        line-height: 1.6;
-      }
 
-      
-    }
+
+
 
 
     </style>
@@ -283,5 +196,27 @@
     
       
 
+
+
+
+
+   
+<!--feedback -->
+<div class="container">
+  <form>
+      <h1>Give your Feedback</h1>
+      <div class="id">
+          <input type="text" placeholder="Fullname">
+          <i class="bi bi-person"></i>
+      </div>
+      <div class="id"></div>
+          <input type="email" placeholder="Email address">
+          <i class="bi bi-envelope"></i>
+      </div>
+      <textarea cols="15" rows="5" placeholder="Enter your opinions here.."></textarea>
+      <button>Send</button>
+
+  </form>
+</div>
 </body>
 </html>
