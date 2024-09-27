@@ -63,6 +63,12 @@
         .w-100{
           height: 100vh;
         }
+
+        .services .card-body i{
+          font-size: 90px;
+        }
+
+
     
         @media only screen and (max-weith: 767px){
           .carousel-caption{
